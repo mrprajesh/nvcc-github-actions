@@ -43,6 +43,7 @@ jobs:
         
       - name: Configure make
         run: make
-        
-      - name: Build all applications
-        run: ./Hello.out
+       
+      #  You can not run CUDA apps, Rajesh.
+      #- name: Build all applications
+      #  run: ./Hello.out
